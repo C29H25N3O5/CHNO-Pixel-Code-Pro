@@ -1,4 +1,4 @@
-![Title](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/title.jpg "CHO Pixel Code")
+![Title](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/Title.jpg)
 
 
 
