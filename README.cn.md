@@ -1,4 +1,4 @@
-![Title](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/Title.webp "CHO Pixel Code")
+![Title](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/title.jpg "CHO Pixel Code")
 
 
 
@@ -102,7 +102,7 @@ CHO Pixel Mono 可以安装在多种平台上.
 
 ## 支持连字列表:
 
-![alt List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.webp)
+![List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.jpg "List of Ligatures")
 
 注: http､ https､ ftp 和十六进制连字可能无法在部分文本编辑器中正常显示. 某些文本编辑器不支持连字.
 
@@ -129,7 +129,29 @@ CHO Pixel Mono 可以安装在多种平台上.
 
 如果你只有运行 Windows､ Linux 或其他操作系统的电脑, 请安装虚拟机.
 
+
+
 ## 显示效果
+
+![Sample](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/samples.jpg "A piece of sample text")
+
+![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/languages.jpg "CHO Pixel in 14 different languages")
+
+![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
+
+![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/c.jpg "C in Sublime Text")
+
+![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/java.jpg "Java in Sublime Text")
+
+![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/python.jpg "Python 3 in Sublime Text")
+
+
+
+## 开源声明
+
+本作品遵守美国 Creative Commons (创意共享) 发布的 CC BY 4.0 (署名) 协议. 你可以在根目录下的 LICENSE.cn.txt 中找到该协议的全文或访问 <https://creativecommons.org>.
+
+![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/cc_by.jpg)
 
 
 
@@ -307,6 +329,4 @@ __注: 部分支持的语言可能未出现在这个列表中.__
 - 约鲁巴语
 - 扎玛语
 - 祖鲁语
-
-<img src="/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/CC-BY_icon.svg.webp" alt="alt CC BY 4.0 Licence" style="zoom:10%;" />
 

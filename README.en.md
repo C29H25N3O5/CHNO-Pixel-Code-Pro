@@ -143,7 +143,17 @@ If you only have computer(s) running Windows, Linux or other OSs, consider using
 
 ## Samples
 
+![Sample](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/samples.jpg "A piece of sample text")
 
+![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/languages.jpg "CHO Pixel in 14 different languages")
+
+![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
+
+![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/c.jpg "C in Sublime Text")
+
+![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/java.jpg "Java in Sublime Text")
+
+![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/python.jpg "Python 3 in Sublime Text")
 
 
 
@@ -151,7 +161,9 @@ If you only have computer(s) running Windows, Linux or other OSs, consider using
 
 This work is under a Creative Commons CC BY 4.0 License. You can find the full text of this licence at LICENSE.en.txt located at the root directory or visit creativecommons.org. 
 
-![CC BY 4.0 License](/Users/ms/Documents/Local Files/Git repos/cho_pixel_code/Media/CC BY.webp)
+![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/cc_by.jpg)
+
+
 
 ## Supported Languages:
 
