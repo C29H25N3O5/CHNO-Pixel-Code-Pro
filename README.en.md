@@ -1,4 +1,4 @@
-![Title](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/title.jpg "CHO Pixel Code")
+![Title](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/Title.jpg "CHO Pixel Code")
 
 # CHO Pixel Code
 
@@ -108,7 +108,7 @@ For other platforms, see the instructions provided with the system.
 
 ## Supported Monospaced Ligatures:
 
-![List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.jpg)
+![List of Ligatures](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/ligatures.jpg)
 
 Please notice that http, https, ftp, and hexadecimal X ligatures may not show up as expected in certain text editors and terminal emulators.  Some text editors does not support ligatures. 
 
@@ -143,17 +143,17 @@ If you only have computer(s) running Windows, Linux or other OSs, consider using
 
 ## Samples
 
-![Sample](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/samples.jpg "A piece of sample text")
+![Sample](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/samples.jpg "A piece of sample text")
 
-![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/languages.jpg "CHO Pixel in 14 different languages")
+![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/languages.jpg "CHO Pixel in 14 different languages")
 
-![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
+![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
 
-![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/c.jpg "C in Sublime Text")
+![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/c.jpg "C in Sublime Text")
 
-![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/java.jpg "Java in Sublime Text")
+![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/java.jpg "Java in Sublime Text")
 
-![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/python.jpg "Python 3 in Sublime Text")
+![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/python.jpg "Python 3 in Sublime Text")
 
 
 
@@ -161,7 +161,7 @@ If you only have computer(s) running Windows, Linux or other OSs, consider using
 
 This work is under a Creative Commons CC BY 4.0 License. You can find the full text of this licence at LICENSE.en.txt located at the root directory or visit creativecommons.org. 
 
-![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/cc_by.jpg)
+![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/cc_by.jpg)
 
 
 

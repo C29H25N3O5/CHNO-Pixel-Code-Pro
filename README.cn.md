@@ -1,4 +1,4 @@
-<p align="center"><img src="https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/samples.jpg" alt="Title"></p>
+![Title](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/Title.jpg)
 
 # CHO Pixel Code
 
@@ -133,15 +133,15 @@ CHO Pixel Mono 可以安装在多种平台上.
 
 ![Sample](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/samples.jpg "Some Sample Texts")
 
-![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/languages.jpg "CHO Pixel in 14 different languages")
+![Languages](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/languages.jpg "CHO Pixel in 14 different languages")
 
-![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
+![iTerm 2](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
 
-![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/c.jpg "C in Sublime Text")
+![C](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/c.jpg "C in Sublime Text")
 
-![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/java.jpg "Java in Sublime Text")
+![Java](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/java.jpg "Java in Sublime Text")
 
-![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/python.jpg "Python 3 in Sublime Text")
+![Python](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/python.jpg "Python 3 in Sublime Text")
 
 
 
@@ -149,7 +149,7 @@ CHO Pixel Mono 可以安装在多种平台上.
 
 本作品遵守美国 Creative Commons (创意共享) 发布的 CC BY 4.0 (署名) 协议. 你可以在根目录下的 LICENSE.cn.txt 中找到该协议的全文或访问 <https://creativecommons.org>.
 
-![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/cc_by.jpg)
+![CC BY 4.0](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/cc_by.jpg)
 
 
 
