@@ -1,4 +1,4 @@
-![Title Image](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/Title.webp "CHO Pixel Code")
+![Title](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/title.jpg "CHO Pixel Code")
 
 # CHO Pixel Code
 
@@ -42,9 +42,7 @@ P.S. All the ligatures are included in the clig (contextual ligatures) feature. 
 
 ## Installations
 
-CHO Pixel Code can be installed on multiple platforms.
-
-
+CHO Pixel Code can be installed on multiple platforms:
 
 ### macOS
 
@@ -81,7 +79,6 @@ CHO Pixel Code can be installed on multiple platforms.
 7. A webpage woule pop up with an alert saying the website is trying to download a profile. Press the "Allow" Button.
 8. You will get another alert that the profile has been downloaded.
 9. Open settings. a "Profile Downloaded" tab would appear above the "Airplane Mode". Click on that tab.
-10. Tap on the profile you just created.
 11. Tap on "Install" at the top right corner.
 12. Enter the passcode of your device if you have one.
 13. Tap on "Install" at the top right corner.
@@ -92,18 +89,26 @@ CHO Pixel Code can be installed on multiple platforms.
 ### Android
 
 1. Download the font.
+
 2. Download iFont from Google Play Store.
+
 3. In the File app, move the font file to `Android SD Card/iFont/Custom`.
+
 4. Open iFont and go to My > My Font.
+
 5. Open the font you just imported. Click "SET" at the bottom.
+
+   Please notice that this method may not work on all Android distributions.
 
 
 
 For other platforms, see the instructions provided with the system.
 
+
+
 ## Supported Monospaced Ligatures:
 
-![alt List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.webp)
+![List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.jpg)
 
 Please notice that http, https, ftp, and hexadecimal X ligatures may not show up as expected in certain text editors and terminal emulators.  Some text editors does not support ligatures. 
 

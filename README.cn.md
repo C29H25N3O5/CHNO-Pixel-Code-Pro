@@ -1,4 +1,4 @@
-![alt CHO Pixel Code](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/title.webp)
+![Title](https://gitee.com/c29h25n3o5_real/cho_pixel_code/blob/master/Media/Title.webp "CHO Pixel Code")
 
 
 
@@ -38,13 +38,13 @@
 
 CHO Pixel Mono 可以安装在多种平台上.
 
-
-
 ### macOS
 
 1. 下载字体.
 2. 打开 "字体册".
 3. 将下载的字体文件拖入字体册中的字体列表中.
+
+
 
 ### Windows
 
@@ -60,19 +60,39 @@ CHO Pixel Mono 可以安装在多种平台上.
 2. 将字体移动至`~/.local/share/fonts` (如果你想给每个用户都安装此字体的话, 请移动到`/usr/share/fonts`).
 3. 在 Terminal 中执行 `fc-cache -f -v`.
 
+
+
 ### iOS/iPadOS
 
 1. 下载字体.
 2. 在 App Store 中下载 iFont.
 3. 打开"文件", 然后选择下载的字体.
 4. 点击"分享", 然后点击 iFont.
-5. 
+5. 在 iFont 中找到"Installer"选项卡, 然后再列表中找到想要安装的字体并点击"INSTALL"按钮.
+6. 在描述文件设置页面, 输入配置文件的名称(可以随便起).
+7. 接下来会弹出一个网页, 点击对话框中的"允许".
+8. 对话框会提醒已下载描述文件.
+9. 打开设置, 在"飞行模式"上方会出现"已下载描述文件"的选项. 点击此选项.
+10. 单击右上角的"安装".
+11. 如果你的设备有密码的话, 输入密码.
+12. 单击右上角的"安装".
+13. 点击屏幕下方的"安装".
+
+
 
 ### Android
 
+1. 下载字体.
 
+2. 在应用商店下载 iFont.
 
+3. 在"文件管理"中, 将字体文件移动至`Android SD Card/iFont/Custom`.
 
+4. 打开 iFont, 进入我的>我的字体.
+
+5. 打开安装的字体,  然后点击"安装".
+
+   请注意,  此方法可能不适用于部分的 Android 发行版.
 
 
 
