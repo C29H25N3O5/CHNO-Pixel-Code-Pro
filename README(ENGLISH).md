@@ -2,33 +2,19 @@
 
 # CHO Pixel Code
 
-
-
 ## Introductions
 
-Hi, C₂₉H₂₅N₃O₅ here. Yes, it is me, the one who is making Touhou Arranges on Bilibili. Surprised?
-
-
-
-In fact, I have been thinking for designing my own font for a very long time, long before I even knew about Touhou; but this was not realised due to hardware limitation. But this year, I bought a MacBook and download Glyphs, so I can finally sit down and fulfil that dream. 
-
-
+Hi, C₂₉H₂₅N₃O₅ here. Yes, it is me, the one who is making Touhou Arranges on Bilibili. In fact, I have been thinking for designing my own font for a very long time, long before I even knew about Touhou; but this was not realised due to hardware limitation. 
 
 But I have to say, I am not a professional font designer, so the stuff I created certainly cannot be compared with the dedicated fonts designed by the experienced. This is merely an attempt for me to peek into the world of font design.
 
-
-
 Anyway, this font is a monospaced, pixel font with only one weight and no italics (because it is easier to design, although I may add the variants later). Like Jetbrains Mono and Fira Code, I also introduced monospaced ligatures (such as != and www) to reduce the distraction when reading the codes. This font is can be used for programming and terminals, so I also added Powerline glyphs so this font can be used for certain shells and terminal emulators (such as Zsh and iTerm2). This font includes most Latin letters,  Cyrillic, and basic Greek letters, and supports about 160 different languages.
-
-
 
 This work is also under a Creative Commons CC BY 4.0 Licence. You can use it for nearly any purpose, e.g. advertising, designing, publishing, develop your new font based on this font, but you have to attribute to the original author (i.e. C₂₉H₂₅N₃O₅). You do not need to notify me when using this font.
 
-
+I may not do further upgrades on this typeface after the initial release.
 
 P.S. All the ligatures are included in the clig (contextual ligatures) feature. You can turn it off using macOS’s Font Panel (Use Command-T to open in certain apps) > (…) > Typography > Ligatures > Contextual Ligatures.
-
-
 
 
 
@@ -50,23 +36,17 @@ CHO Pixel Code can be installed on multiple platforms:
 2. Open Font Book.
 3. Drag the font file (TTF or OTF) into the list to install.
 
-
-
 ### Windows
 
 1. Download the font.
 2. Select the font file (TTF or OTF).
 3. Right click the file, then click "Install" from the pop-up menu.
 
-
-
 ### Linux
 
 1. Donload the font.
 2. move the font file to `~/.local/share/fonts` (or `/usr/share/fonts`, if you want to install fonts system-wide).
 3. enter `fc-cache -f -v` in the Terminal.
-
-
 
 ### iOS/iPadOS
 
@@ -83,8 +63,6 @@ CHO Pixel Code can be installed on multiple platforms:
 12. Enter the passcode of your device if you have one.
 13. Tap on "Install" at the top right corner.
 14. Tap on "Install" again at the bottom.
-
-
 
 ### Android
 
@@ -114,17 +92,11 @@ Please notice that http, https, ftp, and hexadecimal X ligatures may not show up
 
 
 
-
-
 ## Builds
 
 The compiled font is offered in 4 formats: TTF, OTF, WOFF, and WOFF2.
 
-
-
 However, if you want to build from source, you should follow this steps:
-
-
 
 1. **Make sure that your computer is running macOS.** Glyphs is only available on macOS. 
 2. Download the latest version of Glyphs at glyphsapp.com (you can choose to download the trail version as well). 
@@ -133,11 +105,7 @@ However, if you want to build from source, you should follow this steps:
 5. Press Command-E on your keyboard and select your export options. 
 6. Click “Export” to export the font file(s). 
 
-
-
 If you only have computer(s) running Windows, Linux or other OSs, consider using a virtual machine.
-
-
 
 
 
