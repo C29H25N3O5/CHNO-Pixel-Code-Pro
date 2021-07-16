@@ -86,7 +86,7 @@ CHO Pixel Mono 可以安装在多种平台上.
 
 ## 支持连字列表:
 
-![List of Ligatures](/Users/ms/Documents/Local Files/Git Repos/cho_pixel_code/Media/ligatures.jpg "List of Ligatures")
+![List of Ligatures](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/ligatures.jpg "List of Ligatures")
 
 注: http､ https､ ftp 和十六进制连字可能无法在部分文本编辑器中正常显示. 某些文本编辑器不支持连字.
 

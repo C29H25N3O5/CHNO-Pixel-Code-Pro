@@ -86,7 +86,7 @@ For other platforms, see the instructions provided with the system.
 
 ## Supported Monospaced Ligatures:
 
-![List of Ligatures](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/ligatures.jpg)
+![List of Ligatures](https://gitee.com/c29h25n3o5_real/cho_pixel_code/raw/master/Media/ligatures.jpg "List of Ligatures")
 
 Please notice that http, https, ftp, and hexadecimal X ligatures may not show up as expected in certain text editors and terminal emulators.  Some text editors does not support ligatures. 
 
