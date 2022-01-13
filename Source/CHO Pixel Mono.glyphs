@@ -639,6 +639,18 @@ value = "Straight l";
 }
 );
 tag = ss03;
+},
+{
+code = "sub parenleft by parenleft.sq;
+sub parenright by parenright.sq;
+";
+labels = (
+{
+language = dflt;
+value = "Squared Paren";
+}
+);
+tag = ss04;
 }
 );
 fontMaster = (
@@ -3658,7 +3670,7 @@ unicode = 70;
 },
 {
 glyphname = Fhook;
-lastChange = "2021-07-09 04:46:10 +0000";
+lastChange = "2022-01-13 19:42:52 +0000";
 layers = (
 {
 layerId = m01;
@@ -3670,42 +3682,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,400);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,-100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (0,-200);
 ref = pixel;
 },
 {
@@ -3731,6 +3708,50 @@ ref = pixel;
 {
 alignment = -1;
 pos = (300,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (-100,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,600);
 ref = pixel;
 }
 );
@@ -4070,7 +4091,7 @@ unicode = 7712;
 },
 {
 glyphname = Gstroke;
-lastChange = "2021-07-09 05:03:43 +0000";
+lastChange = "2022-01-13 19:43:57 +0000";
 layers = (
 {
 layerId = m01;
@@ -4127,22 +4148,42 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,100);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (300,200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,300);
+pos = (400,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,700);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,400);
 ref = pixel;
 },
 {
@@ -4157,12 +4198,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,200);
+pos = (500,200);
 ref = pixel;
 }
 );
@@ -71345,6 +71381,17 @@ width = 600;
 unicode = 8542;
 },
 {
+glyphname = "space-han";
+lastChange = "2022-01-13 18:01:06 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 12288;
+},
+{
 glyphname = zerowidthjoiner;
 layers = (
 {
@@ -71430,6 +71477,67 @@ width = 600;
 }
 );
 unicode = 894;
+},
+{
+glyphname = "comma-han";
+lastChange = "2022-01-13 18:02:09 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (100,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,-200);
+ref = pixel;
+}
+);
+width = 600;
+}
+);
+unicode = 12289;
+},
+{
+glyphname = "period-han";
+lastChange = "2022-01-13 18:02:02 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (200,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,-100);
+ref = pixel;
+}
+);
+width = 600;
+}
+);
+unicode = 12290;
 },
 {
 glyphname = "dot-kata";
@@ -72252,6 +72360,36 @@ width = 600;
 unicode = 92;
 },
 {
+glyphname = colon.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = colon;
+}
+);
+width = 600;
+}
+);
+unicode = 65306;
+},
+{
+glyphname = comma.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = comma;
+}
+);
+width = 600;
+}
+);
+unicode = 65292;
+},
+{
 glyphname = colon.fig;
 lastChange = "2021-07-08 09:17:09 +0000";
 layers = (
@@ -72272,6 +72410,36 @@ ref = pixel;
 width = 600;
 }
 );
+},
+{
+glyphname = question.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = question;
+}
+);
+width = 600;
+}
+);
+unicode = 65311;
+},
+{
+glyphname = semicolon.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = semicolon;
+}
+);
+width = 600;
+}
+);
+unicode = 65307;
 },
 {
 glyphname = hyphen;
@@ -72412,7 +72580,7 @@ unicode = 95;
 },
 {
 glyphname = parenleft;
-lastChange = "2022-01-12 20:45:30 +0000";
+lastChange = "2022-01-13 17:10:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -72425,11 +72593,6 @@ ref = pixel;
 {
 alignment = -1;
 pos = (300,-200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,500);
 ref = pixel;
 },
 {
@@ -72459,17 +72622,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,-100);
+pos = (200,500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,-200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,600);
+pos = (200,-100);
 ref = pixel;
 }
 );
@@ -72480,7 +72638,7 @@ unicode = 40;
 },
 {
 glyphname = parenright;
-lastChange = "2022-01-12 20:45:39 +0000";
+lastChange = "2022-01-13 17:10:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -72493,16 +72651,6 @@ ref = pixel;
 {
 alignment = -1;
 pos = (100,-200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,-200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,-100);
 ref = pixel;
 },
 {
@@ -72532,12 +72680,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,500);
+pos = (200,500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,600);
+pos = (200,-100);
 ref = pixel;
 }
 );
@@ -72817,6 +72965,170 @@ width = 600;
 }
 );
 unicode = 93;
+},
+{
+glyphname = parenleft.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = parenleft;
+}
+);
+width = 600;
+}
+);
+unicode = 65288;
+},
+{
+glyphname = parenright.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = parenright;
+}
+);
+width = 600;
+}
+);
+unicode = 65289;
+},
+{
+glyphname = parenleft.sq;
+lastChange = "2022-01-13 17:10:24 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (300,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,600);
+ref = pixel;
+}
+);
+width = 600;
+}
+);
+},
+{
+glyphname = parenright.sq;
+lastChange = "2022-01-13 17:12:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (100,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,600);
+ref = pixel;
+}
+);
+width = 600;
+}
+);
 },
 {
 glyphname = quotesinglbase;
@@ -77832,7 +78144,7 @@ unicode = 8494;
 },
 {
 glyphname = numero;
-lastChange = "2021-07-09 04:00:25 +0000";
+lastChange = "2022-01-13 18:00:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -77899,16 +78211,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (0,200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (0,100);
-ref = pixel;
-},
-{
-alignment = -1;
 ref = pixel;
 },
 {
@@ -77928,17 +78231,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,0);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (400,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,200);
 ref = pixel;
 }
 );
@@ -78228,16 +78521,11 @@ unicode = 8457;
 },
 {
 glyphname = informationsource;
-lastChange = "2021-07-12 04:26:59 +0000";
+lastChange = "2022-01-13 17:15:58 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
-{
-alignment = -1;
-pos = (0,400);
-ref = pixel;
-},
 {
 alignment = -1;
 pos = (100,400);
@@ -78246,11 +78534,6 @@ ref = pixel;
 {
 alignment = -1;
 pos = (200,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,400);
 ref = pixel;
 },
 {
@@ -78275,35 +78558,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,0);
-ref = pixel;
-},
-{
-alignment = -1;
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,0);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (400,0);
 ref = pixel;
 },
@@ -78324,11 +78578,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (200,600);
 ref = pixel;
 },
@@ -78339,17 +78588,17 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,700);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (200,700);
 ref = pixel;
 },
 {
 alignment = -1;
 pos = (300,700);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,400);
 ref = pixel;
 }
 );
@@ -79752,21 +80001,11 @@ unicode = 8373;
 },
 {
 glyphname = cent;
-lastChange = "2021-07-08 09:23:09 +0000";
+lastChange = "2022-01-13 17:13:50 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
-{
-alignment = -1;
-pos = (300,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
 {
 alignment = -1;
 pos = (300,400);
@@ -79824,12 +80063,22 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,-100);
+pos = (200,600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,-200);
+pos = (200,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,-200);
 ref = pixel;
 }
 );
@@ -79840,7 +80089,7 @@ unicode = 162;
 },
 {
 glyphname = colonsign;
-lastChange = "2021-07-11 05:27:36 +0000";
+lastChange = "2022-01-13 17:13:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -79917,17 +80166,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (0,-200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (300,-100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,-200);
 ref = pixel;
 },
 {
@@ -79937,17 +80176,27 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,800);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (300,700);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,800);
+pos = (100,800);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,800);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,-200);
 ref = pixel;
 }
 );
@@ -80761,7 +81010,7 @@ unicode = 8370;
 },
 {
 glyphname = hryvnia;
-lastChange = "2021-07-11 05:29:03 +0000";
+lastChange = "2022-01-13 17:13:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -80823,56 +81072,37 @@ ref = pixel;
 },
 {
 alignment = -1;
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,-100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,-100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,-100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,-100);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (300,500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,600);
+pos = (200,600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,700);
+pos = (100,600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,700);
+pos = (0,600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,700);
+pos = (200,0);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (0,700);
+pos = (300,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,0);
 ref = pixel;
 }
 );
@@ -81180,7 +81410,7 @@ unicode = 8356;
 },
 {
 glyphname = liraTurkish;
-lastChange = "2021-07-11 05:29:59 +0000";
+lastChange = "2022-01-13 17:15:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -81227,16 +81457,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,100);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (400,200);
 ref = pixel;
 },
@@ -81258,6 +81478,16 @@ ref = pixel;
 {
 alignment = -1;
 pos = (0,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,300);
 ref = pixel;
 }
 );
@@ -81366,7 +81596,7 @@ unicode = 8374;
 },
 {
 glyphname = manat;
-lastChange = "2021-07-11 05:30:14 +0000";
+lastChange = "2022-01-13 17:14:54 +0000";
 layers = (
 {
 layerId = m01;
@@ -81449,6 +81679,21 @@ ref = pixel;
 alignment = -1;
 pos = (200,300);
 ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,0);
+ref = pixel;
 }
 );
 width = 600;
@@ -81458,7 +81703,7 @@ unicode = 8380;
 },
 {
 glyphname = mill;
-lastChange = "2021-07-11 05:30:24 +0000";
+lastChange = "2022-01-13 17:14:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -81549,17 +81794,17 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (100,-100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (0,-200);
+pos = (300,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-200);
 ref = pixel;
 }
 );
@@ -81570,7 +81815,7 @@ unicode = 8357;
 },
 {
 glyphname = naira;
-lastChange = "2021-07-11 05:30:33 +0000";
+lastChange = "2022-01-13 18:00:19 +0000";
 layers = (
 {
 layerId = m01;
@@ -81667,6 +81912,21 @@ ref = pixel;
 {
 alignment = -1;
 pos = (200,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,100);
 ref = pixel;
 }
 );
@@ -81980,7 +82240,7 @@ unicode = 8360;
 },
 {
 glyphname = rupeeIndian;
-lastChange = "2021-07-11 05:32:32 +0000";
+lastChange = "2022-01-13 17:15:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -82042,17 +82302,17 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (200,100);
 ref = pixel;
 },
 {
 alignment = -1;
 pos = (300,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,200);
 ref = pixel;
 },
 {
@@ -82068,7 +82328,7 @@ unicode = 8377;
 },
 {
 glyphname = sheqel;
-lastChange = "2021-07-11 05:32:48 +0000";
+lastChange = "2022-01-13 17:15:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -82114,22 +82374,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (200,200);
 ref = pixel;
 },
 {
 alignment = -1;
 pos = (200,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,0);
 ref = pixel;
 },
 {
@@ -82190,7 +82440,7 @@ unicode = 8362;
 },
 {
 glyphname = sterling;
-lastChange = "2021-07-08 09:24:33 +0000";
+lastChange = "2022-01-13 17:14:19 +0000";
 layers = (
 {
 layerId = m01;
@@ -82241,16 +82491,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (100,400);
 ref = pixel;
 },
@@ -82267,6 +82507,16 @@ ref = pixel;
 {
 alignment = -1;
 pos = (300,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,100);
 ref = pixel;
 },
 {
