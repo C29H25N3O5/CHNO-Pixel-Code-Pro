@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04F6" format="2">
+	<advance width="600"/>
+	<unicode hex="04F6"/>
+	<outline>
+		<component base="uni0413"/>
+		<component base="pixel" xOffset="100"/>
+		<component base="pixel" xOffset="100" yOffset="-100"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>pixel</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>pixel</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
