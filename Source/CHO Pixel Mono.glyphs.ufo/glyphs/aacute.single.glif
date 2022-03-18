@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="aacute.single" format="2">
-	<advance width="600"/>
-	<outline>
-		<component base="a.single"/>
-		<component base="acutecomb" yOffset="-200"/>
-	</outline>
-</glyph>

@@ -1,129 +1,111 @@
-![Title](Media/Title.jpg)
+![Title](Media/heading.jpg "CHNO Pixel Code Pro")
 
-# CHO Pixel Code
+# CHNO Pixel Code Pro
 
-[Click here for the English version of this document!](README(ENGLISH).md)
-
-## 介绍
-
-我的第一款像素字体! 参考了Fira Code和Jetbrains Mono的特色连字.
+[点击这里来阅读中文版.](README(CN).md)
 
 
+## Introductions
 
-## 特性
+![characters](Media/characters.jpg "Wide range of characters")
 
-- 支持约 120 种等宽连字 (如 `-->` 和 `!=` )
-- 支持170+种语言
-- 十六进制数字和乘法中'x'的位置优化
-- 假名支持
-- Hinting
+CHNO Pixel Code Pro. A global typeface for pixel lovers and developers.
+
+CHO Pixel Code has evolved. CHNO Pixel Code Pro is here for you. 
+
+It supports a wide range of OpenType Features and languages so that you can write confidently in your language. All with a touch of old-school computer terminals and video games!
 
 
 
-## 安装
+## Features
 
-CHO Pixel Mono 可以安装在多种平台上.
+
+* **Supports a wide range of languages.** It supports most languages written in Latin, Cyrillic, and the Greek alphabet. It also supports Hebrew, Japanese Kana, Runes, and even some Chinese Characters, making it a truly international typeface.
+
+![languages](Media/languages.jpg "Multi-language support")
+
+
+* **A wide range of OpenType features.** In programs that support OpenType features, you can fully realize the full potential of this typeface. More than 20 unique features make it more than suitable for people seeking a touch of diversity. It also includes supports Bulgarian and Serbian variations of the Cyrillic alphabet!
+
+![features](Media/feature.jpg "Some OpenType features it supports.")
+
+
+* **Monospaced ligatures.** To increase the legibility of codes in small font size, CHNO Pixel Code Pro has 120+ monospaced ligatures! Just enable the `dlig` (Discretionary Ligatures) feature in your editor, and you are good to go.
+
+![ligatures](Media/lig.gif "A example of monospaced ligatures.")
+
+
+* **NEW: TRUE Italics!** A TRUE Italic version is now available for CHNO Pixel Code Pro, and it supports most languages in western Europe!
+
+![italics](Media/Italics.jpg "A sample of the italics.")
+
+
+* **Hinting.** Hinting was added to the entire font family to ensure eligibility at a tiny font size. 
+
+
+
+## Installations
+
+CHO Pixel Code can be installed on multiple platforms:
 
 ### macOS
 
-1. 下载字体.
-2. 打开 "字体册".
-3. 将下载的字体文件拖入字体册中的字体列表中.
+1. Download the font.
+2. Open Font Book.
+3. Drag the font file (TTF or OTF) into the list to install.
 
 ### Windows
 
-1. 下载字体.
-2. 选择下载的字体.
-3. 右键单击选中的字体, 然后再弹出的菜单中选择"安装".
+1. Download the font.
+2. Select the font file (TTF or OTF).
+3. Right-click the file, then click "Install" from the pop-up menu.
 
 ### Linux
 
-1. 下载字体.
-2. 将字体移动至`~/.local/share/fonts` (如果你想给每个用户都安装此字体的话, 请移动到`/usr/share/fonts`).
-3. 在 Terminal 中执行 `fc-cache -f -v`.
+1. Download the font.
+2. Move the font file to `~/.local/share/fonts` (or `/usr/share/fonts`, if you want to install fonts system-wide).
+3. Enter `fc-cache -f -v` in the Terminal.
 
-### iOS/iPadOS
 
-1. 下载字体.
-2. 在 App Store 中下载 iFont.
-3. 打开"文件", 然后选择下载的字体.
-4. 点击"分享", 然后点击 iFont.
-5. 在 iFont 中找到"Installer"选项卡, 然后再列表中找到想要安装的字体并点击"INSTALL"按钮.
-6. 在描述文件设置页面, 输入配置文件的名称(可以随便起).
-7. 接下来会弹出一个网页, 点击对话框中的"允许".
-8. 对话框会提醒已下载描述文件.
-9. 打开设置, 在"飞行模式"上方会出现"已下载描述文件"的选项. 点击此选项.
-10. 单击右上角的"安装".
-11. 如果你的设备有密码的话, 输入密码.
-12. 单击右上角的"安装".
-13. 点击屏幕下方的"安装".
-
-### Android
-
-1. 下载字体.
-
-2. 在应用商店下载 iFont.
-
-3. 在"文件管理"中, 将字体文件移动至`Android SD Card/iFont/Custom`.
-
-4. 打开 iFont, 进入我的>我的字体.
-
-5. 打开安装的字体,  然后点击"安装".
-
-   请注意,  此方法可能不适用于部分的 Android 发行版.
-
-对于以上并未提及的操作系统, 请参考系统自带的说明.
+For other platforms, see the instructions provided with the system.
 
 
 
-## 支持连字列表:
 
-![List of Ligatures](Media/ligatures.jpg "List of Ligatures")
+## Builds
 
-注: http､ https､ ftp 和十六进制连字可能无法在部分文本编辑器中正常显示. 某些文本编辑器不支持连字.
-
-
-
-## 从源码编译
-
-编译完成, 可以直接安装的字体以四种格式提供: OTF､ TTF､ WOFF 和 WOFF2.
-
-但如果你想从源代码编译, 请参考以下步骤:
+If you want to build the typeface from the source, please follow these steps:
 
 ### macOS
 
-1. 在 glyphapps.com 下载最新版本的 Glyphs (官网有试用版).
-2. 安装 Glyphs (或Glphs Mini).
-3. 使用 Glyphs 打开 .glyphs 文件.
-4. 按下 Command-E, 然后选择导出选项.
-5. 点击"导出"来导出字体文件.
+1. Download the latest version of Glyphs at glyphsapp.com (you can choose to download the trial version as well). 
+2. Install Glyphs on your computer. 
+3. Open the .glyphs file using Glyphs. 
+4. Press Command-E on your keyboard and select your export options. 
+5. Click “Export” to export the font file(s). 
+
+### Other Operating Systems
+
+Please open the .ufo file in the folder using a font editing program on your OS.
 
 
 
-## 其他操作系统
+## Technical Details
 
-请使用你目前使用操作系统可以运行的一款字体设计软件打开.ufo(Universal Font Object)文件.
+CHNO Pixel Code Pro is a pixel-styled monospaced typeface, provided in OpenType and TrueType format with or without hinting, and can be used in desktop applications and web designs. It comes in a font family with two styles (Regular, Italic).
 
+The Regular font contains 2,610 characters (including ligatures and alternates) and 26 OpenType features. It supports extended Latin, Cyrillic, Greek alphabet, Runes, Hebrews, Numerals (lining/old-style), Japanese kana, some Kanji, and symbols. 
 
+The Italic font contains 170 characters and no OpenType features. It supports ASCII characters and a few more letters with diacritics. 
 
-## 显示效果
-
-![Sample](Media/code.png "Some Sample Texts")
-
-![Languages](Media/languages.jpg "CHO Pixel in 14 different languages")
-
-![iTerm 2](Media/iterm2.jpg "CHO Pixel in iTerm2 and zsh")
-
-![C](Media/c.jpg "C in Sublime Text")
-
-![Java](Media/java.jpg "Java in Sublime Text")
-
-![Python](Media/python.jpg "Python 3 in Sublime Text")
+More details can be found within the source files. 
 
 
 
-## 开源声明
+## Open-Source
 
-本作品遵守美国 Creative Commons (创意共享) 发布的 CC BY 4.0 (署名) 协议. 你可以在根目录下的 LICENSE.cn.txt 中找到该协议的全文或访问 <https://creativecommons.org>.
+This work is under a Creative Commons CC BY 4.0 License. You can find the full text of this license at LICENSE.en.txt located at the root directory or visit creativecommons.org. 
 
 ![CC BY 4.0](Media/cc_by.jpg)
+
+![end](Media/end.jpg)

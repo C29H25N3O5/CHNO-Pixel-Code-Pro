@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03020309" format="2">
+	<advance width="0"/>
+	<anchor x="100" y="700" name="_top"/>
+	<anchor x="97" y="1294" name="top"/>
+	<outline>
+		<component base="uni0302" xOffset="200"/>
+		<component base="hookabovecomb" xOffset="400" yOffset="200"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>hookabovecomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
