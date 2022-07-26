@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0490" format="2">
+	<advance width="600"/>
+	<unicode hex="0490"/>
+	<outline>
+		<component base="uni0413"/>
+		<component base="pixel" xOffset="400" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>pixel</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
